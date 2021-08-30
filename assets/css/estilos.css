@@ -1,3 +1,12 @@
+@font-face{
+
+    font-family: 'fo';
+    src: url(../assets/fonts/Typo\ Formal\ Italic\ Demo.otf)
+}
+*{
+    font-family: 'fo';
+}
+
 
 .borde-up{
     background-color: rgb(96, 160, 255);
@@ -87,3 +96,85 @@ header .t h1 {
     text-align: center;
     margin-bottom: 20px;
 }
+
+
+
+.descrip{
+    height: 150px;
+    border-radius: 50px;
+    width: 90%;
+    margin: 0px auto;
+   
+}
+
+.d input::placeholder{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.datos-p input::placeholder{
+    color: #000000;
+    opacity: 0.5;
+}
+
+.datos-p input.fe{
+    color: #000000;
+    opacity: 0.5;
+}
+
+.datos-p input.fe:hover{
+    color: #023f46;
+    opacity: 1;
+}
+
+input:hover::placeholder{
+    color: #023f46;
+    opacity: 1;
+}
+
+
+
+
+
+footer address{  
+    text-align: center;
+    align-items: center;
+
+}
+
+.fab {
+    font-size: 35px;
+    color: white;
+    
+}
+.fa-facebook-square{
+    background: #000000;
+    width: 35px;
+    border-radius: 5px;
+    
+}
+.fa-facebook-square:hover{
+    background: #250dfcc1;
+}
+.fa-twitter-square{
+    background: rgb(0, 0, 0);
+    width: 35px;
+    border-radius: 5px;
+}
+.fa-twitter-square:hover{
+    background: rgb(0, 161, 248);
+}
+
+.fa-instagram{
+    background-color: black;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.fa-instagram:hover {
+    background: linear-gradient(to top right,#FCDE30, #E9712A, #D2313B, #AE4198, #7540A1, #5443A8);
+    width: 35px;
+    border-radius: 5px;
+}
+
